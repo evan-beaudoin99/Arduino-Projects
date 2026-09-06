@@ -37,5 +37,6 @@ Sketches organized by hardware/component.
 | Sketch | Purpose |
 |---|---|
 | `Base-TFT-Code` | Baseline test sketch for an MCUFRIEND TFT shield on a Mega 2560 — draws shapes/text and confirms the display driver ID. |
+| `LCD-16x2-Basic` | Drives a standard 16x2 character LCD in 4-bit mode via the built-in `LiquidCrystal` library; prints a greeting and a live uptime counter. |
 | `Weather-Display-Basic` | TFT weather display mockup (temperature/humidity) with a custom dark color palette; currently uses simulated data. **Contains a hardcoded WiFi password — sanitize before sharing/publishing.** |
 | `ESP32-Stock-Ticker` | ESP32 sketch that connects to WiFi and pulls stock/index chart data from the RapidAPI "live-stock-market" endpoint. **Contains a hardcoded WiFi password — sanitize before sharing/publishing.** |
