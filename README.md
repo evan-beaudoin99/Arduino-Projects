@@ -26,6 +26,7 @@ Sketches organized by hardware/component.
 |---|---|
 | `Temp-Humidity-DHT11` | Reads a DHT11 sensor (data pin 2) and prints temperature (°C) and humidity (%) to the Serial monitor every 2 seconds. Requires the `DHT sensor library` (Adafruit). |
 | `Ultrasonic-HC-SR04` | Reads an HC-SR04 ultrasonic sensor (trig pin 9, echo pin 10) and prints the measured distance in cm to the Serial monitor. No extra library required. |
+| `Ultrasonic-Radar` | Sweeps an HC-SR04 (trig pin 11, echo pin 12) across 15°-165° on a servo (pin 9), streaming `angle,distance.` over Serial at 9600 baud. Requires the `Servo` library. Includes a companion `Processing-Radar-Visualizer` sketch that plots the sweep as a classic green radar display — set `SERIAL_PORT_NAME` to your Arduino's port before running it. |
 
 ## Motors/
 | Sketch | Purpose |

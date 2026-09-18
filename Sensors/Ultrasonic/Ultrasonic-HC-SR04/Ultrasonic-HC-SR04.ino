@@ -2,7 +2,7 @@
 #define ECHO_PIN 10
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(9600); // Baud Rate
   pinMode(TRIG_PIN, OUTPUT);
   pinMode(ECHO_PIN, INPUT);
 }

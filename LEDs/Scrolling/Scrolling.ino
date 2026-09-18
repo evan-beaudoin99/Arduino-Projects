@@ -1,5 +1,5 @@
-const int ledPins[] = {2, 3, 4, 5, 6};
-const int numLeds = 5;
+const int ledPins[] = {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
+const int numLeds = 12;
 const int delayTime = 100; // ms between steps
 
 void setup() {
