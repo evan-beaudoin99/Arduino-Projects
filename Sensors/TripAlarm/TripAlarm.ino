@@ -7,7 +7,7 @@ const int greenPin = 11;
 
 // Below this reading the beam is considered broken (0-1023).
 // Tune it: note the raw value with the laser on and off, pick a value between.
-const int threshold = 500;
+const int threshold = 300;
 
 void setup()
 {
@@ -20,7 +20,7 @@ void setup()
 void loop()
 {
   int raw = analogRead(ldrPin);
-  bool broken = raw < threshold;
+  bool broken = raw > threshold;
 
   digitalWrite(redPin, broken ? HIGH : LOW);
   digitalWrite(greenPin, broken ? LOW : HIGH);
